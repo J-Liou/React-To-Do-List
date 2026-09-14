@@ -20,6 +20,7 @@ function TaskInput({ onAdd }) {
         value={text}
         onChange={e => setText(e.target.value)}
         placeholder="Enter task"
+        autocomplete="off"
       />
       <button id="add-button" type="submit">
         Add
